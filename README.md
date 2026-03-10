@@ -53,4 +53,5 @@ Se realizaron cruces de variables para validar hipótesis de negocio:
 
 ---
 **Desarrollado por:** Aarón Hernández Campos  
-**Contacto:** [linkedin.com/in/a-h-campos]
+**Contacto:** [LinkedIn](https://www.linkedin.com/in/a-h-campos)
+
