@@ -1,17 +1,16 @@
-# Challenge-Alura-Telecom-X
 Penúltimo challenge de la formación Data Science de Alura LATAM
 
-# 📊 Análisis de Evasión de Clientes (Churn) - Telecom X
+#  Análisis de Evasión de Clientes (Churn) - Challenge-Alura-Telecom-X
 
 ![Status](https://img.shields.io/badge/Status-Finalizado-success)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-orange)
 ![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-green)
 
-## 📝 Descripción del Proyecto
+##  Descripción 
 Este proyecto se enfoca en el análisis de datos de **Telecom X** para identificar los factores que influyen en la deserción de clientes (*Churn*). A través de un proceso de ETL y Análisis Exploratorio de Datos (EDA), se detectaron patrones críticos en el comportamiento de los usuarios, permitiendo formular recomendaciones estratégicas basadas en evidencia para reducir la pérdida de ingresos.
 
-## 🛠️ Stack Tecnológico
+##  Tecnologías
 * **Lenguaje:** Python 3.x
 * **Entorno:** Google Colab
 * **Librerías Principales:** * `Pandas`: Manipulación y limpieza de datos.
@@ -19,7 +18,7 @@ Este proyecto se enfoca en el análisis de datos de **Telecom X** para identific
     * `Matplotlib` & `Seaborn`: Visualización de datos estadísticos.
     * `Requests` / `JSON`: Ingesta de datos desde fuentes semiestructuradas.
 
-## 🚀 Flujo de Trabajo (Pipeline)
+##  Flujo de Trabajo (Pipeline)
 
 ### 1. Ingesta y Normalización
 Los datos originales se encontraban en formato **JSON anidado**. Se realizó un proceso de aplanamiento (*flattening*) para transformar la estructura jerárquica en un DataFrame relacional listo para el análisis.
@@ -37,21 +36,21 @@ Se realizaron cruces de variables para validar hipótesis de negocio:
 
 
 
-## 📈 Hallazgos Principales
+##  Hallazgos Principales
 * **Vulnerabilidad Contractual:** Los clientes con contratos mes a mes presentan la tasa de evasión más alta.
 * **Segmento Crítico:** Los usuarios de fibra óptica con facturas superiores al promedio tienen un riesgo de fuga incrementado en un 30%.
 * **Periodo de Retención:** La mayor probabilidad de churn ocurre en los primeros 12 meses de servicio.
 
-## 💡 Recomendaciones Propuestas
+##  Recomendaciones Propuestas
 1. Implementar programas de fidelización para clientes en su primer año.
 2. Incentivar la migración de contratos mensuales a anuales mediante *upgrades* de servicio.
 3. Auditar la calidad técnica de la infraestructura de Fibra Óptica en zonas de alta rotación.
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 * `Notebook_TelecomX.ipynb`: Notebook con el código completo, desde la carga hasta el informe final.
 * `TelecomX_Data.json`: Dataset original utilizado en el análisis.
 * `TelecomX_diccionario.md`: Diccionario de datos para referencia de variables.
 
 ---
-**Desarrollado por:** [Tu Nombre]  
-**Contacto:** [Enlace a tu LinkedIn o Correo]
+**Desarrollado por:** Aarón Hernández Campos  
+**Contacto:** linkedin.com/in/a-h-campos
